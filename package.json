@@ -1,0 +1,28 @@
+{
+  "name": "d3hiring",
+  "version": "1.0.0",
+  "description": "d3hiring nodejs coding challenge",
+  "main": "app.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "test": "jest --watchAll  --maxWorkers=1 --coverage --collectCoverageFrom='./routes/**' --collectCoverageFrom='./services/**'"
+  },
+  "author": "Aung Khant Kyaw",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.1",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.3",
+    "express": "^4.18.2",
+    "mysql2": "^2.3.3",
+    "nodemon": "^2.0.20",
+    "save-dev": "^0.0.1-security",
+    "sequelize": "^6.24.0",
+    "sequelize-cli": "^6.5.1",
+    "util": "^0.12.4"
+  },
+  "devDependencies": {
+    "jest": "^29.1.2",
+    "supertest": "^6.3.0"
+  }
+}
